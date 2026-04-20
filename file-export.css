@@ -1,0 +1,12 @@
+body { background: #181c20; color: #eaeaea; font-family: 'Segoe UI', Arial, sans-serif; margin: 0; padding: 0; }
+.container { max-width: 1100px; background: #23272e; border-radius: 8px; box-shadow: 0 2px 16px #0008; }
+h3 { color: #fff; font-size: 1.35rem; margin-bottom: 24px; }
+pre { background: #181c20; border-radius: 6px; overflow-x: auto; }
+code { }
+.tabs { display: flex; overflow-x: auto; overflow-y: hidden; white-space: nowrap; border-bottom: 2px solid #333; margin-bottom: 0; scrollbar-width: thin; }
+.tab { flex: 0 0 auto; padding: 12px 32px; cursor: pointer; background: #23272e; color: #eaeaea; border: none; outline: none; font-size: 1.1em; white-space: nowrap; }
+.tab.active { background: #181c20; border-bottom: 2px solid #fff; color: #fff; }
+.tab-content { display: none; }
+.tab-content.active { display: block; }
+@media (max-width: 768px) { pre { font-size: 8px; } code { font-size: 8px; } }
+@media (min-width: 769px) { pre { font-size: 12px; } code { font-size: 12px; } .container { padding: 32px 40px; margin: 40px auto; } }
